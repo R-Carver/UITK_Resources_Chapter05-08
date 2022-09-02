@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/04_BuildIn_Controls/Slider/Stylesheet_Slider.uss?fileID=7433441132597879392&amp;guid=be2bd917fa6803446b94acb07bf0951a&amp;type=3#Stylesheet_Slider" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(18, 28, 45); padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px; align-items: center; justify-content: center;">
+        <ui:Slider picking-mode="Ignore" label="Magic Box" value="200" high-value="400" show-input-field="false" direction="Horizontal" name="MySlider" low-value="10" style="color: rgb(255, 255, 255); font-size: 22px; background-color: rgba(255, 255, 255, 0); -unity-font-style: bold; width: 80%; margin-bottom: 50px;" />
+        <ui:VisualElement name="Box" style="width: 100px; height: 100px; background-color: rgb(255, 241, 179);" />
+    </ui:VisualElement>
+</ui:UXML>

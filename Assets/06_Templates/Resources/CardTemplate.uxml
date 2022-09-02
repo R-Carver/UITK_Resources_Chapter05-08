@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Card" style="background-image: none; align-items: center; justify-content: space-around; width: 250px; height: 400px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: rgb(214, 31, 31);">
+        <ui:VisualElement name="Avatar" style="background-image: url(&apos;project://database/Assets/05_Templates/Resources/img/nutzer.png?fileID=2800000&amp;guid=090c8cb4bdf1b7d4fba1e2133c91fe8a&amp;type=3#nutzer&apos;); width: 100px; height: 100px; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;" />
+        <ui:Label tabindex="-1" text="Name" display-tooltip-when-elided="true" name="NameLabel" style="font-size: 30px; -unity-font-style: normal;" />
+        <ui:VisualElement style="width: 100%; align-items: center; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; background-color: rgba(255, 241, 179, 255);">
+            <ui:Label tabindex="-1" text="Description" display-tooltip-when-elided="true" style="font-size: 20px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,14 @@
+.unity-text-field__input {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-width: 5px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-color: rgb(18, 28, 45);
+    -unity-text-align: upper-center;
+}
+
+TextField > Label {
+    font-size: 25px;
+    display: none;
+}

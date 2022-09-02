@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; padding-left: 80px; padding-right: 80px; padding-top: 80px; padding-bottom: 80px;">
+        <ui:Label tabindex="-1" text="Age Of Empires" display-tooltip-when-elided="true" style="margin-bottom: 10px; color: rgb(255, 255, 255); font-size: 30px;" />
+        <ui:VisualElement style="height: 10px; background-color: rgb(255, 241, 179);" />
+        <ui:Label tabindex="-1" text="Age Of Empires" display-tooltip-when-elided="true" style="margin-bottom: 10px; margin-top: 20px; color: rgb(255, 255, 255); font-size: 30px; -unity-font-definition: url(&apos;project://database/Assets/04_BuildIn_Controls/Text/Silkscreen-Regular%20SDF.asset?fileID=11400000&amp;guid=81e151c8d742fff42bb92ae1dcf91d3f&amp;type=2#Silkscreen-Regular SDF&apos;);" />
+        <ui:VisualElement style="height: 10px; background-color: rgb(255, 241, 179);" />
+        <ui:Label tabindex="-1" text="&lt;b&gt;Age Of Empires&lt;/b&gt; is a &lt;color=#D61F1F&gt;great&lt;/color&gt; game!&#10;" display-tooltip-when-elided="true" enable-rich-text="true" style="margin-bottom: 10px; margin-top: 20px; color: rgb(255, 255, 255); font-size: 30px;" />
+        <ui:VisualElement style="height: 10px; background-color: rgb(255, 241, 179);" />
+        <ui:Label tabindex="-1" display-tooltip-when-elided="true" enable-rich-text="true" name="MyLabel" style="margin-bottom: 10px; margin-top: 20px; color: rgb(255, 255, 255); font-size: 30px;" />
+        <ui:VisualElement style="height: 10px; background-color: rgb(255, 241, 179);" />
+    </ui:VisualElement>
+</ui:UXML>

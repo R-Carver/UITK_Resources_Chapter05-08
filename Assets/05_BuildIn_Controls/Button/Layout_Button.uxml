@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(18, 28, 45, 255); align-items: center; justify-content: space-around;">
+        <ui:Button tabindex="-1" text="Click Me!" display-tooltip-when-elided="true" name="MyButton" style="border-left-color: rgb(214, 31, 31); border-right-color: rgb(214, 31, 31); border-top-color: rgb(214, 31, 31); border-bottom-color: rgb(214, 31, 31); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; background-color: rgba(88, 88, 88, 0); font-size: 25px; color: rgba(235, 86, 86, 255); width: 140px; height: 40px;" />
+        <ui:VisualElement name="Box" style="width: 100px; height: 100px; background-color: rgba(255, 241, 179, 255); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>

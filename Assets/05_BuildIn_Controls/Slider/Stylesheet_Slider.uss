@@ -1,0 +1,27 @@
+#MySlider #unity-dragger {
+    background-color: rgba(235, 86, 86, 255);
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    width: 15px;
+    height: 140%;
+    position: absolute;
+    top: 5px;
+}
+
+#MySlider #unity-tracker {
+    visibility: hidden;
+}
+
+#MySlider #unity-drag-container {
+    background-color: rgba(235, 86, 86, 255);
+}
